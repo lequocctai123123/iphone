@@ -1,0 +1,30 @@
+.product__item{
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+.product__info h3 a{
+    font-size: 1.1rem;
+    color: var(--primary_color);
+    font-size: 600;
+    font-weight: 700;
+    margin-top: 15PX;
+}
+.product__info a:hover{
+    color: indianred;
+}
+.product__info span{
+    font-size: 0.9rem;
+}
+.price{
+    color: rgb(0, 0, 0) ;
+    font-size: 20px;
+    font-family: 'Oswald';
+}
+.product__card-bottom span i{
+    font-size: 1.2rem;
+    padding:5px ;
+    background: black;
+    color:white;
+    border-radius: 50px;
+}

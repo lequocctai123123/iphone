@@ -1,0 +1,21 @@
+.table tr td img{
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}
+.td i{
+    cursor: pointer;
+}
+.td{
+    color: var(--primary-color);
+}
+.gio_hang{
+    border: black 1px solid;
+    padding: 30px;
+    border-radius: 10px;
+}
+.gio_hang h6{
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+    font-weight: 700;
+}

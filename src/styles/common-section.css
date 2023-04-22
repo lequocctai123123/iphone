@@ -1,0 +1,26 @@
+
+.common__section{
+    background: linear-gradient(rgba(105, 105, 105, 0.262), rgba(136, 135, 135, 0.262)), 
+    url("../assets/images/common-section.jpg") no-repeat center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.common__section h1{
+    color: black;
+    font-weight: 700;
+    font-size: 50px;
+    font-family: 'Oswald';
+}
+
+@media only screen and (max-width: 768px) {
+    .common__section {
+        padding: 70px 0px;
+    }
+
+    .common__section h1 {
+        font-size: 1.4rem;
+    }
+}
